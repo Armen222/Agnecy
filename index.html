@@ -9,174 +9,195 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="page">
-        <div class="header-wrapper full-wrapper">
-            <header class="header">
-                <nav class="site-menu">
-                    <ul class="menu-list">
-                        <li><a class="menu-link active-link" href="#">Home</a></li>
-                        <li><a class="menu-link" href="#feature">Portfolio</a></li>
-                        <li><a class="menu-link" href="#team">About us</a></li>
-                        <li><a class="menu-link" href="">Contact</a></li>
-                    </ul>
-                </nav>
+        <div class="page__inner page__inner_intro page__inner_grey">
+            <header class="header page__header">
+                <div class="headeer__fixed">
+                    <nav class="site-menu">
+                        <ul class="site-menu__list">
+                            <li class="site-menu__item"><a class="site-menu__link site-menu__link_active" href="">Home</a></li>
+                            <li class="site-menu__item"><a class="site-menu__link" href="#feature">Portfolio</a></li>
+                            <li class="site-menu__item"><a class="site-menu__link" href="#team">About us</a></li>
+                            <li class="site-menu__item"><a class="site-menu__link" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="popup-menu">
+                        <button class="popup-menu__button"></button>
+                        <ul class="popup-menu__list hide">
+                            <li class="popup-menu__item"><a class="popup-menu__link popup-menu__link_active" href="">Home</a></li>
+                            <li class="popup-menu__item"><a class="popup-menu__link" href="#feature">Portfolio</a></li>
+                            <li class="popup-menu__item"><a class="popup-menu__link" href="#team">About us</a></li>
+                            <li class="popup-menu__item"><a class="popup-menu__link" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
         </div>
-        
-            <div class="intro-wrapper">
-                <section class="intro full-wrapper">
-                    <div class="intro-info"> 
-                        <h2 class="intro-heading">Our strong <span class="intro-special">organization</span></h2>
-                        <p class="intro-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum sit numquam sint explicabo aut. Odit modi molestias ullam quae sapiente eveniet delectus qui rem molestiae aut, dolorum nostrum ratione in!</p>
-                        <a class="action-link action-link_red-full" href="">Contact us</a>
+        <main>
+            <div class="page__inner page__inner_section page__inner_grey">
+                <section class="intro">
+                    <div class="intro__info">
+                        <h2 class="intro__heading">Our strong<br> <span class="intro__span intro__span_special">organization</span></h2>
+                        <p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+                        <a class="action-link action-link_red-full" href="">Contact Us</a>
                     </div>
-                    <video class="intro-video" preload="auto" muted autoplay loop poster="img/intro-video.jpg">
-                            <source src="video/business178.mp4" type="video/mp4">
-
-                        
-                    </video>
+                    <div class="sample">
+                        <video class="intro__video" controls muted loop autoplay >
+                            <source src="video/business178.mp4"
+                            type="video/mp4">
+                            Обновите браузер!
+                            <a href="video/business178.mp4">Видео по ссылке</a>
+                        </video>
+                     </div>
                 </section>
             </div>
+
             <section class="services">
                 <div class="services__info">
-                    <h2 class="services__heading">do you know we can provide for you?</h2>
+                    <h2 class="services__heading">Do you know we can provide for you?</h2>
                     <p class="services__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
-                    <a href="" class="action-link action-link_red-transp">Learn More</a>
+                    <a class="action-link action-link_red-transp" href="">Learn More</a>
                 </div>
                 <div class="services__items">
-                    <div class="services__item services__item_icon_mang">
+                    <div class="services__item services__item_icon_1">
                         <h3 class="services__title">Management</h3>
                         <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
                     </div>
-                    <div class="services__item services__item_icon_desing">
-                        <h3 class="services__title">UI /UX Design</h3>
-                        <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                    <div class="services__item services__item_icon_2">
+                        <h3 class="services__title">UI / UX Design</h3>
+                        <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor </p>
                     </div>
-                    <div class="services__item services__item_icon_logo">
+                    <div class="services__item services__item_icon_3">
                         <h3 class="services__title">Logo / Branding</h3>
-                        <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                        <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,</p>
                     </div>
-                    <div class="services__item services__item_icon_anim">
+                    <div class="services__item services__item_icon_4">
                         <h3 class="services__title">Animation</h3>
-                        <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                        <p class="services__text">Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,</p>
                     </div>
                 </div>
-            </section>
-
+            </section>        
+    
             <section class="feature">
-                <div class="feature__header">
-                    <h2 class="feature__heading" id="feature">Feature products</h2>
-                    <p class="feature__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
-                   
-                </div>
-                <div class="filter">
-                    <ul class="filter__list">
-                        <li class="filter__item"><a href="#" class="filter__link filter__link_active">all</a></li>
-                        <li class="filter__item"><a href="#" class="filter__link">Print template</a></li>
-                        <li class="filter__item"><a href="#" class="filter__link">Web template</a></li>
-                        <li class="filter__item"><a href="#" class="filter__link">User interface</a></li>
-                        <li class="filter__item"><a href="#" class="filter__link">Mock-up</a></li>
-                    </ul>
-                </div>
-                <div class="feature__products">
-                    <img width="300" src="./img/work-1.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-2.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-3.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-4.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-5.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-6.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-7.jpg" alt="верстка приложения" class="feature__product">
-                    <img width="300" src="./img/work-8.jpg" alt="верстка приложения" class="feature__product">
-                </div>
-            </section>
-            <section class="team">
-                <div class="team__header">
-                    <h2 class="team__heading" id="team">Meet our team</h2>
-                    <p class="team__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
-                    
-                </div>
-                <div class="team__members">
-                    <img width="324" height="460" src="./img/avatar-man.svg" alt="photo seo mark" class="team__lead-photo">
-                    <div class="team__inner">
-                        <div class="team__lead-main">
-                            <span class="team__lead-name">mark waugh</span>
-                            <p class="team__lead-about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
-                            <ul class="team__lead-social">
-                                <li><a class="team__lead-link" href="">Facebook</a></li>
-                                <li><a class="team__lead-link" href="">Dribble</a></li>
-                                <li><a class="team__lead-link" href="">Behance</a></li>
-                                <li><a class="team__lead-link" href="">Twiter</a></li>
+                        <div class="feature__header">
+                            <h2 class="feature__heading" id="feature">Feature products</h2>
+                            <p class="feature__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+                        
+                        </div>
+                        <div class="filter">
+                            <ul class="filter__list">
+                                <li class="filter__item"><a href="#" class="filter__link filter__link_active">all</a></li>
+                                <li class="filter__item"><a href="#" class="filter__link">Print template</a></li>
+                                <li class="filter__item"><a href="#" class="filter__link">Web template</a></li>
+                                <li class="filter__item"><a href="#" class="filter__link">User interface</a></li>
+                                <li class="filter__item"><a href="#" class="filter__link">Mock-up</a></li>
                             </ul>
                         </div>
-                        <section class="team__others">
-                            <div class="team__other">
-                                <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
-                                <span class="team__other-name">Sokina Jue</span>
-                            </div>                   
-                            <div class="team__other">
-                                <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
-                                <span class="team__other-name">Sokina Jue</span>
-                            </div>                   
-                            <div class="team__other">
-                                <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
-                                <span class="team__other-name">Sokina Jue</span>
-                            </div>                
-                            <div class="team__other">
-                                <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
-                                <span class="team__other-name">Sokina Jue</span>
-                            </div>                
-                        </section>
+                        <div class="feature__products">
+                            <img width="300" src="./img/work-1.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-2.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-3.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-4.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-5.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-6.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-7.jpg" alt="верстка приложения" class="feature__product">
+                            <img width="300" src="./img/work-8.jpg" alt="верстка приложения" class="feature__product">
+                        </div>
+            </section>
+            
+            <section class="team">
+                        <div class="team__header">
+                            <h2 class="team__heading" id="team">Meet our team</h2>
+                            <p class="team__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+                            
+                        </div>
+                        <div class="team__members">
+                            <img width="324" height="460" src="./img/avatar-man.svg" alt="photo seo mark" class="team__lead-photo">
+                            <div class="team__inner">
+                                <div class="team__lead-main">
+                                    <span class="team__lead-name">mark waugh</span>
+                                    <p class="team__lead-about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+                                    <ul class="team__lead-social">
+                                        <li><a class="team__lead-link" href="">Facebook</a></li>
+                                        <li><a class="team__lead-link" href="">Dribble</a></li>
+                                        <li><a class="team__lead-link" href="">Behance</a></li>
+                                        <li><a class="team__lead-link" href="">Twiter</a></li>
+                                    </ul>
+                                </div>
+                                <section class="team__others">
+                                    <div class="team__other">
+                                        <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
+                                        <span class="team__other-name">Sokina Jue</span>
+                                    </div>                   
+                                    <div class="team__other">
+                                        <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
+                                        <span class="team__other-name">Sokina Jue</span>
+                                    </div>                   
+                                    <div class="team__other">
+                                        <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
+                                        <span class="team__other-name">Sokina Jue</span>
+                                    </div>                
+                                    <div class="team__other">
+                                        <img class="team__other-photo" width="198" height="217" src="./img/avatar-woman.svg" alt="Sokina">
+                                        <span class="team__other-name">Sokina Jue</span>
+                                    </div>                
+                                </section>
+                            </div>                    
+                        </div>
+            </section>
+                
+            <section class="subscribe">
+                    <div class="subscribe__header">
+                        <h2 class="subscribe__heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
+                        <p class="subscribe__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
                     </div>                    
+                    <form method="get" class="subscribe__form">
+                        <input type="email" class="subscribe__input" name="email" id="email" placeholder="Email Address...">
+                        <button class="subscribe__button" type="submit">Subscribe</button>
+                    </form>
+            </section>
+
+            <section class="feedback">
+                    <div class="feedback__header">
+                        <div class="feedback__header-wrapper">
+                            <h2 class="feedback__heading">get in touch</h2>
+                            <p class="feedback__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        </div>              
+                    </div>
+                    <div class="feedback__body" id="contact">
+                        <form method="get" class="feedback__form">
+                            <input type="text" placeholder="Name" name="Name"  class="feedback__name">
+                            <input type="email" placeholder="Your Mail" name="email" id="email" class="feedback__email">
+                            <textarea class="feedback__textarea" name="textarea" id="" placeholder="Type your message" cols="30" rows="10"></textarea>
+                            <button class="feedback__button" type="submit">Send message</button>
+                        </form>
+                        <section class="feedback__contacts contacts">
+                            <h3 class="contacts__heading">contact info</h3>
+                            <address class="contacts__addsess">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</address>
+                            <a class="contacts__email" href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a>
+                            <a class="contacts__tel" href="tel:(+88) 017 617 46373">(+88) 017 617 46373</a>
+                        </section>
+                    </div>
+            </section>
+        </main>          
+        <footer class="footer">
+                <div class="footer__content">
+                    <p class="footer__copyright">&copy; Copyright @Junaed 2016, All rights reserved.</p>
+                    <section class="footer_social social">
+                        <a href="" class="social__link">
+                            <img src="./img/Twitter.svg" alt="Twitter" class="social__logo">
+                        </a>
+                        <a href="" class="social__link">
+                            <img src="./img/LinkedIn.svg" alt="LinkedIn" class="social__logo">
+                        </a>
+                        <a href="" class="social__link">
+                            <img src="./img/Google.svg" alt="Google" class="social__logo">
+                        </a>
+                        <a href="" class="social__link">
+                            <img src="./img/Facebook.svg" alt="Facebook" class="social__logo">
+                        </a>
+                    </section>
                 </div>
-            </section>
-
-        
-        <section class="subscribe">
-            <h2 class="subscribe__heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
-            <p class="subscribe__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
-            <form method="get" class="subscribe__form">
-                <input type="email" class="subscribe__input" name="email" id="email" placeholder="Email Address...">
-                <button class="subscribe__button" type="submit">Subscribe</button>
-            </form>
-        </section>
-
-        <section class="feedback">
-            <div class="feedback__header">
-                <h2 class="feedback__heading">get in touch</h2>
-                <p class="feedback__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            <div class="feedback_body">
-                <form method="get" class="feedback__form">
-                    <input type="text" placeholder="Name" name="Name"  class="feedback__name">
-                    <input type="email" placeholder="Your Mail" name="email" id="email" class="feedback__email">
-                    <textarea class="feedback__textarea" name="textarea" id="" placeholder="Type your message" cols="30" rows="10"></textarea>
-                    <button class="feedback__button" type="submit">Send message</button>
-                </form>
-                <section class="feedback__contacts contacts">
-                    <h3 class="contacts__heading">contact info</h3>
-                    <address class="contacts__addsess">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</address>
-                    <a class="contacts__email" href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a>
-                    <a class="contacts__tel" href="tel:(+88) 017 617 46373">(+88) 017 617 46373</a>
-                </section>
-            </div>
-        </section>
-    <footer class="footer">
-        <div class="footer__content">
-            <p class="footer__copyright">&copy; Copyright @Junaed 2016, All rights reserved.</p>
-            <section class="footer_social social">
-                <a href="" class="social__link">
-                    <img src="./img/Twitter.svg" alt="Twitter" class="social__logo">
-                </a>
-                <a href="" class="social__link">
-                    <img src="./img/LinkedIn.svg" alt="LinkedIn" class="social__logo">
-                </a>
-                <a href="" class="social__link">
-                    <img src="./img/Google.svg" alt="Google" class="social__logo">
-                </a>
-                <a href="" class="social__link">
-                    <img src="./img/Facebook.svg" alt="Facebook" class="social__logo">
-                </a>
-            </section>
-        </div>
-    </footer>
+        </footer> 
+        <script src="./main.js"></script>
     </body>
 </html>
