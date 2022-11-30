@@ -35,11 +35,9 @@
     url('../fonts/open-sans-v34-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.page {
-    font-family: 'Open sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+
+:root{
+    scroll-behavior: smooth;
 }
 
 /* Header */
@@ -83,12 +81,13 @@
 }
 
 /* Heder*/
+
 .header {
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     width: 100%;
     max-width: 1249px;
     min-height: 89px;
@@ -275,9 +274,7 @@
     }
 
 }
-@media screen and (max-width: 600px){
 
-}
 .intro__text {
     font-family: 'Open Sans';
     font-size: 16px;
@@ -637,6 +634,11 @@
     height: 291px;
     margin-bottom: 18px;
     object-fit: cover;
+    transition: .15s all;
+}
+
+.feature__product:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 1200px){
@@ -901,6 +903,7 @@
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: center;
+    gap: 22px;
     
 }
 
@@ -916,7 +919,7 @@
     padding-right: 35px;
     border: none;
     border-radius: 5px;
-    margin-right: 22px;
+    
     margin-bottom: 15px;
     background-color: #fff;
 }
@@ -935,6 +938,7 @@
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* feedback */
@@ -1050,6 +1054,7 @@
     font-family: 'Open Sans';
     font-size: 18px;
     color: #fff;
+    cursor: pointer;
 }
 
 .feedback__textarea{
@@ -1188,6 +1193,7 @@
     display: flex;
     gap: 18px;
 } 
+
 @media screen and (max-width: 600px){
     .footer__content{
         display: flex;
